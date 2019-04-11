@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  www:
+    build: .
+    volumes:
+      - ".:/var/www/html"
+    ports:
+      - "8070:80"
+
